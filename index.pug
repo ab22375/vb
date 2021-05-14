@@ -1,31 +1,53 @@
 extends layout.pug
 
 block content
-    h1(class="text-2xl p-5") DOP
-        br
-        span(class="text-2xl p-5") /Video Editor
+    div(class="text-9xl text-gray-800") DOP
+    div(class="text-4xl text-gray-800 pl-2") /VIDEO EDITOR
     
-    div(class="lg:max-w-2xl mx-auto")
-        div(class="grid grid-cols-3")
-            div(class="md:mx-10 col-span-3")
-                img(src="./img/coming-soon.jpeg" alt="coming soon")
+    div(class="lg:max-w-3xl mx-auto my-10")
+        div(class="grid grid-cols-5 gap-y-24")
 
-            div(class="md:mx-10 col-span-2")
-                a(href="./video.html")
-                    img(src="./img/thinking-of-you-by-stefano-mastronardi-Artlist.00_00_21_05.Still001.jpg", alt="thinking of you by stefano mastronardi Artlist")
             div(class="col-span-1")
+            div(class="md:m-2 col-span-3")
+                img(
+                    src="./img/coming-soon.jpeg" 
+                    alt="coming soon"
+                    class="hover:cursor-pointer transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 "
+                )
+            div(class="col-span-1")
+
+            div(class="md:m-2 col-span-3")
+                a(href="./video.html")
+                    img(
+                        src="./img/thinking-of-you-by-stefano-mastronardi-Artlist.00_00_21_05.Still001.jpg"
+                        alt="thinking of you by stefano mastronardi Artlist"
+                        class="hover:cursor-pointer transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 "
+                        )
+            div(class="col-span-2")
             
-            div(class="col-span-1")
-            div(class="md:mx-10 col-span-2")
+            div(class="col-span-2")
+            div(class="md:m-2 col-span-3")
                 a(href="./video.html")
-                    img(src="./img/Matcha-Seule-V1.00_19_38_04.Still007.jpg", alt="...")
+                    img(
+                        src="./img/Matcha-Seule-V1.00_19_38_04.Still007.jpg"
+                        alt="..."
+                        class="hover:cursor-pointer transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 "
+                        )
             
-            div(class="md:mx-10 col-span-2")
+            div(class="md:m-2 col-span-3")
                 a(href="./video.html")
-                    img(src="./img/Timeline.00_05_25_21.Still002.jpg", alt="...")
-            div(class="col-span-1")
+                    img(
+                        src="./img/Timeline.00_05_25_21.Still002.jpg"
+                        alt="..."
+                        class="hover:cursor-pointer transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 "
+                        )
+            div(class="col-span-2")
             
-            div(class="col-span-1")
-            div(class="md:mx-10 col-span-2")
+            div(class="col-span-2")
+            div(class="md:m-2 col-span-3")
                 a(href="./video.html")
-                    img(src="./img/Matcha-Seule-V1.00_00_22_03.Still001.jpg", alt="...")
+                    img(
+                        src="./img/Matcha-Seule-V1.00_00_22_03.Still001.jpg"
+                        alt="..."
+                        class="hover:cursor-pointer transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 "
+                        )
